@@ -49,20 +49,20 @@
 
         nav_layer {
                 bindings = <
-                        &kp ESC   &none   &kp RET   &kp TAB   &kp LPAR                  &kp RPAR &none &kp UP &none &none 
-                        &kp LSFT &kp LCTRL &kp LALT &kp LGUI &kp LBKT                   &kp RBKT &kp LEFT &kp DOWN &kp RIGHT &none
-                        &kp DEL    &none    &none   &none   &kp SPACE                   &none &none &none &none &none
-                                                        &trans &trans      &trans       &trans &trans
+                        &kp ESC       &none         &kp RET        &kp TAB       &kp LPAR                     &kp RPAR      &none         &kp UP       &none          &none 
+                        &kp LSFT      &kp LCTRL     &kp LALT       &kp LGUI      &kp LBKT                     &kp RBKT      &kp LEFT      &kp DOWN     &kp RIGHT      &none
+                        &kp DEL       &none         &none          &none         &none                        &none         &none         &none        &none          &none
+                                                    &trans                       &trans         &trans        &trans                      &trans
                 >;
                 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
          };
 
          num_layer {
                 bindings = <
-                        &kp GRAVE  &none     &none    &none  &kp LPAR                   &kp RPAR &kp N7 &kp N8 &kp N9 &kp EQUAL
-                        &trans &trans &trans &trans &kp LBKT                            &kp RBKT &kp N4 &kp N5 &kp N6 &kp MINUS
-                        &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR &bootloader   &kp N0   &kp N1 &kp N2 &kp N3 &kp BSLH
-                                                        &trans &trans      &trans       &trans &trans
+                        &kp GRAVE     &none        &none           &none         &kp LPAR                     &kp RPAR      &kp N7         &kp N8      &kp N9          &kp EQUAL
+                        &trans        &trans       &trans          &trans        &kp LBKT                     &kp RBKT      &kp N4         &kp N5      &kp N6          &kp MINUS
+                        &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2    &bt BT_CLR    &bootloader                  &kp N0        &kp N1         &kp N2      &kp N3          &kp BSLH
+                                                   &trans                        &trans         &trans        &trans                       &trans
                 >;
                 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
          };
